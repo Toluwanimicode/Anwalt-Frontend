@@ -58,7 +58,10 @@ const Home = () => {
             <h3>117</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
           </div>
-          <div></div>
+          <div>
+            <h3>62</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
           <div></div>
           <div></div>
         </div>
