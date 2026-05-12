@@ -53,6 +53,15 @@ const Home = () => {
             <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu  </p>
           </div>
         </div>
+        <div>
+          <div>
+            <h3>117</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </div>
   )
