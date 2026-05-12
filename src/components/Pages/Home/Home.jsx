@@ -29,7 +29,29 @@ const Home = () => {
           <img />
         </div>
         <div>
-          <img />
+          <img src='./images/h1-img-1.jpg'  />
+        </div>
+      </div>
+      <div>
+        <div>
+          <h3>Step closer to justice</h3>
+          <p>Best law practices. Expertise in various law fields . Great results</p>
+        </div>
+        <div>
+          <div>
+            <img />
+            <h3>Best law practices</h3>
+            <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu</p>
+          </div>
+          <div>
+            <img />
+            <h3>Efficiency & Trust </h3>
+            <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu</p>
+          </div>
+          <div>
+            <h3>Results you deserve </h3>
+            <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu  </p>
+          </div>
         </div>
       </div>
     </div>
