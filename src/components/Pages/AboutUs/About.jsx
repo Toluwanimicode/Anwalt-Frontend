@@ -13,10 +13,12 @@ const About = () => {
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis heme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam quam nunc, sit amet orci blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Maecenas, sem quam semper libero, sit amet.
         </p>
         <div>
-          
+          <img src="./images/signature.png" />
         </div>
       </div>
-      <div></div>
+      <div>
+        
+      </div>
     </div>
   )
 }
