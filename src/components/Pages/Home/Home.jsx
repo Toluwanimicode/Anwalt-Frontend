@@ -1,10 +1,14 @@
 import React from 'react'
 import "./Home.css"
 import Caorousel1 from '../../Carousel/Carousel'
+import NavigationBar from '../../Navbar/Navbar'
 
 const Home = () => {
   return (
     <div>
+      <div>
+        <NavigationBar />
+      </div>
       <div>
         <Caorousel1 />
       </div>

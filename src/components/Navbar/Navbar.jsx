@@ -2,12 +2,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import './Navbar.css'
 
-function BasicExample() {
+function NavigationBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img className='logo' src='./images/preloader-img.png' alt="Company logo" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -23,4 +26,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default NavigationBar;
