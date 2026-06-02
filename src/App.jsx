@@ -3,6 +3,7 @@ import Carousel1 from './components/Carousel/Carousel'
 import About from './components/Pages/AboutUs/About';
 import Client from './components/Pages/Clients/Client';
 import Home from './components/Pages/Home/Home'
+import Team from './components/Pages/Our-Team/Team';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
@@ -18,9 +19,6 @@ function App() {
               <Route path="/about" element={<Team />} />
           </Routes>
         </BrowserRouter>
-
-      <Carousel1 />
-      <Home />
     </>
   )
 }

@@ -1,10 +1,13 @@
 import React from 'react'
 import "./Home.css"
+import Caorousel1 from '../../Carousel/Carousel'
 
 const Home = () => {
   return (
     <div>
-      <div></div>
+      <div>
+        <Caorousel1 />
+      </div>
       <div>
         <div>
           <img />
