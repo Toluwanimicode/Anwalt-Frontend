@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../Footer/Footer';
 
 const Team = () => {
   return (
@@ -29,6 +30,9 @@ const Team = () => {
           <img />
           <img />
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   )

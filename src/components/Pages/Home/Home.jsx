@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.css"
 import Caorousel1 from '../../Carousel/Carousel'
 import NavigationBar from '../../Navbar/Navbar'
+import Footer from '../../Footer/Footer'
 
 const Home = () => {
   return (
@@ -73,6 +74,9 @@ const Home = () => {
           <div></div>
           <div></div>
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   )

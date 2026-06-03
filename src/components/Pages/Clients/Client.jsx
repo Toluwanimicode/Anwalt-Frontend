@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../Footer/Footer'
 
 const Client = () => {
     return (
@@ -41,7 +42,9 @@ const Client = () => {
         <div>
 
         </div>
-        
+        <div>
+            <Footer />
+        </div>
     </div>
 )
 }

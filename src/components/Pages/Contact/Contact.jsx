@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from '../../Footer/Footer'
+
 
 const Contact = () => {
   return (
@@ -38,6 +40,9 @@ const Contact = () => {
           <span>Fax:+88 (0) 101 0000 001</span>
           <span>Email: info@example.com</span>
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   )
