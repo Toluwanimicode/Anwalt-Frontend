@@ -13,7 +13,7 @@ const Home = () => {
       <div>
         <Caorousel1 />
       </div>
-      <div>
+      <div className='section-1'>
         <div>
           <img />
           <h3>Employment law</h3>
@@ -23,7 +23,6 @@ const Home = () => {
           <img />
           <h3>Domestic Violence</h3>
           <p>Don't be scared to step out. Contact our law team</p>
-
         </div>
         <div>
           <img />
@@ -46,7 +45,7 @@ const Home = () => {
           <h3>Step closer to justice</h3>
           <p>Best law practices. Expertise in various law fields . Great results</p>
         </div>
-        <div>
+        <div className='section-2'>
           <div>
             <img />
             <h3>Best law practices</h3>
