@@ -1,5 +1,6 @@
 .body-2{
     display: flex;
+    margin: 40px; 
 }
 .section-3{
     display: flex;
@@ -7,12 +8,17 @@
 .section-1{
     display: flex;
     margin-top: 20px;
+    padding: 30px;
 }
 .section-2{
     text-align: center;
     background-color: #AA9166;
     color: white;
+    padding: 50px;
 }
 .ctr-1{
     text-align: center;
+}
+.body-3{
+    margin: 30px;
 }

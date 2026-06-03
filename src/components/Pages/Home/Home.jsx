@@ -39,7 +39,7 @@ const Home = () => {
         <h3>Emergency?Call us now  +35 123 456 789 </h3>
       </div>
       <div className='body-2'>
-        <div>
+        <div className='body-3'>
           <h3>We're there for you</h3>
           <p>With 25 years of experience in law and justice, our team is focused on delivering quality and value to our clients. We achieve this through practical and innovative legal solutions that help our clients . Everyone deserves support on the way to Justice </p>
           <img src='./images/signature.png' />
