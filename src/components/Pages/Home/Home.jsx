@@ -29,6 +29,14 @@ const Home = () => {
           <h3>Securities law</h3>
           <p>A security is an investment in a business . Make the 1st step</p>
         </div>
+        <div>
+          <img />
+          <h3>Federal crimes</h3>
+          <p>Meet the best experts in the federal crimes field</p>
+        </div>
+      </div>
+      <div className='section-2'>
+        <h3>Emergency?Call us now  +35 123 456 789 </h3>
       </div>
       <div className='body-2'>
         <div>
@@ -40,12 +48,12 @@ const Home = () => {
           <img src='./images/h1-img-1.jpg'  />
         </div>
       </div>
-      <div>
-        <div>
+      <div className='ctr-1'>
+        <div >
           <h3>Step closer to justice</h3>
           <p>Best law practices. Expertise in various law fields . Great results</p>
         </div>
-        <div className='section-2'>
+        <div className='section-3'>
           <div>
             <img />
             <h3>Best law practices</h3>

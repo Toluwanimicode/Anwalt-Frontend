@@ -1,10 +1,18 @@
 .body-2{
     display: flex;
 }
-.section-2{
+.section-3{
     display: flex;
 }
 .section-1{
     display: flex;
     margin-top: 20px;
+}
+.section-2{
+    text-align: center;
+    background-color: #AA9166;
+    color: white;
+}
+.ctr-1{
+    text-align: center;
 }
