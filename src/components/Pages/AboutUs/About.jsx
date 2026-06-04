@@ -1,11 +1,12 @@
 import React from 'react'
 import Footer from '../../Footer/Footer'
+import NavigationBar from '../../Navbar/Navbar'
 
 const About = () => {
   return (
     <div>
       <div>
-
+          <NavigationBar />
       </div>
       <div>
         <h2>What we stand for</h2>

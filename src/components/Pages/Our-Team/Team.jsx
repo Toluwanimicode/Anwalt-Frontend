@@ -1,10 +1,13 @@
 import React from 'react'
 import Footer from '../../Footer/Footer';
+import NavigationBar from '../../Navbar/Navbar';
 
 const Team = () => {
   return (
     <div>
-      <div></div>
+      <div>
+        <NavigationBar />
+      </div>
       <div>
         <div>
           <h2> Experts in criminal law</h2>

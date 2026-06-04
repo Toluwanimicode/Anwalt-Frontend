@@ -1,9 +1,13 @@
 import React from 'react'
 import Footer from '../../Footer/Footer'
+import NavigationBar from '../../Navbar/Navbar'
 
 const Client = () => {
     return (
     <div id="" >
+        <div>
+            <NavigationBar />
+        </div>
         <div>
             <h2>Our Clients</h2>
         </div>
