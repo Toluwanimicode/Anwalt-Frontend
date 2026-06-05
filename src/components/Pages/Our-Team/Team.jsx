@@ -9,6 +9,9 @@ const Team = () => {
         <NavigationBar />
       </div>
       <div>
+        <h3>Our Team</h3>
+      </div>
+      <div>
         <div>
           <h2> Experts in criminal law</h2>
           <p> Professionals with exceptional legal background  and years of law espertise </p>
