@@ -22,9 +22,21 @@ const Team = () => {
             <h3> Rebecca Stevens</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div>
+            <img />
+            <h3> Rebecca Stevens</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
+          </div>
+          <div>
+            <img />
+            <h3> Rebecca Stevens</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
+          </div>
+          <div>
+            <img />
+            <h3> Rebecca Stevens</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
+          </div>
         </div>
       </div>
       <div>
