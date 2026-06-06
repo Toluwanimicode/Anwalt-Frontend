@@ -31,10 +31,10 @@ const Team = () => {
         <h3>Rewards we are proud of </h3>
         <p> impressive number of successful law cases in our portfolio is a confirmation of our quality </p>
         <div>
-          <img />
-          <img />
-          <img />
-          <img />
+          <img src='./images/team-1.png' />
+          <img  src='./images/Team-2.png'/>
+          <img  src='./images/Team-3.png'/>
+          <img  src='./images/Team-4.png'/>
         </div>
       </div>
       <div>
