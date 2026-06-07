@@ -18,22 +18,22 @@ const Team = () => {
         </div>
         <div>
           <div>
-            <img />
+            <img src='./images/team-human1.jpg'/>
             <h3> Rebecca Stevens</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
           </div>
           <div>
-            <img />
+            <img src='./images/team-human2.jpg' />
             <h3> Rebecca Stevens</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
           </div>
           <div>
-            <img />
+            <img  src='./images/team-human.jpg'/>
             <h3> Rebecca Stevens</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
           </div>
           <div>
-            <img />
+            <img src='./images/team-human4.jpg' />
             <h3> Rebecca Stevens</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
           </div>
