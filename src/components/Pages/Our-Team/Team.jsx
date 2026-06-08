@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../../Footer/Footer';
 import NavigationBar from '../../Navbar/Navbar';
+import "./Team.css"
 
 const Team = () => {
   return (
@@ -8,15 +9,15 @@ const Team = () => {
       <div>
         <NavigationBar />
       </div>
-      <div>
+      <div className='text-1'>
         <h3>Our Team</h3>
       </div>
-      <div>
+      <div className='teamSection-1'> 
         <div>
           <h2> Experts in criminal law</h2>
           <p> Professionals with exceptional legal background  and years of law espertise </p>
         </div>
-        <div>
+        <div className='team-section'>
           <div>
             <img src='./images/team-human1.jpg'/>
             <h3> Rebecca Stevens</h3>
@@ -28,7 +29,7 @@ const Team = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
           </div>
           <div>
-            <img  src='./images/team-human.jpg'/>
+            <img  src='./images/team-human3.jpg'/>
             <h3> Rebecca Stevens</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
           </div>
