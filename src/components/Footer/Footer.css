@@ -1,3 +1,25 @@
 .footer-section{
     display: flex;
+    background-color: #141414;
+    color: white;
+}
+.footer-end{
+    background-color: #AA9166;
+    padding: 30px;
+    
+}
+.FooterSection-1{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.FooterSection-2{
+    padding: 60px;
+}
+.FooterSection-3{
+    padding: 60px;
+}
+.FooterSection-4{
+    padding: 60px;
 }

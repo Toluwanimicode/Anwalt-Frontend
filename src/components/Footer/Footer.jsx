@@ -5,7 +5,7 @@ const Footer = () => {
     return (
     <div >
         <div className='footer-section' >
-            <div>
+            <div className='FooterSection-1'>
                 <div>
                     <h1>Law Office</h1>
                     <p>Lorem Ipsn gravida aliquet. Aenean solici, lorem quis biben auci elit ipsu sem nibh id elit Phasellus vive varius laet.Quisque rutrum.Aenean imperdiet. Etiam ultrices. Aenean solici, lorem quis biben auci.</p>
@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='FooterSection-2'>
                 <h3>Latest news</h3>
                 <p>Stop worrying about the market  March 9, 2018</p>
 
@@ -29,7 +29,7 @@ const Footer = () => {
                     March 9, 2018 
                 </p>
             </div>
-            <div>
+            <div className='FooterSection-3'>
                 <h3>Usual questions</h3>
                 <p>How can i protect myself ?
                     <br></br>
@@ -45,9 +45,16 @@ const Footer = () => {
 
                 </p>
             </div>
-            <div></div>
+            <div className='FooterSection-4'>
+                <h3>Emergency Contact</h3>
+                <form class="contact-form"  method="POST">
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <textarea name="message" placeholder="Message" rows="6" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
             </div>
-            <div>
+            </div>
+            <div className='footer-end'>
                 <div>
                         <p>2021 Qode Interactive. All rights reserved</p>
                 </div>
@@ -57,7 +64,7 @@ const Footer = () => {
                     <div></div>
                     <div></div>
                 </div>
-        </div>
+            </div>
     </div>
 )
 }
