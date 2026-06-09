@@ -90,9 +90,11 @@ const Home = () => {
 
       </div>
       <div>
-        <h3>Anwalt pricing tables</h3>
-        <p>Choose a law service you need and we'll help you at great price</p>
-        <div>
+          <div className='section-4a'>
+              <h3>Anwalt pricing tables</h3>
+              <p>Choose a law service you need and we'll help you at great price</p>
+          </div>
+        <div className='section-4b'>
           <div>
             <div>
               <h3>Immigration law</h3>
