@@ -55,16 +55,17 @@ const Home = () => {
         </div>
         <div className='section-3'>
           <div>
-            <img />
+            <img src='./images/h1-img-2.jpg' />
             <h3>Best law practices</h3>
             <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu</p>
           </div>
           <div>
-            <img />
+            <img src='./images/h1-img-3.jpg' />
             <h3>Efficiency & Trust </h3>
             <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu</p>
           </div>
           <div>
+            <img src='./images/h1-img-4.jpg' />
             <h3>Results you deserve </h3>
             <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu  </p>
           </div>
