@@ -54,17 +54,17 @@ const Home = () => {
           <p>Best law practices. Expertise in various law fields . Great results</p>
         </div>
         <div className='section-3'>
-          <div>
+          <div className='section-3a'>
             <img src='./images/h1-img-2.jpg' />
             <h3>Best law practices</h3>
             <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu</p>
           </div>
-          <div>
+          <div className='section-3b'>
             <img src='./images/h1-img-3.jpg' />
             <h3>Efficiency & Trust </h3>
             <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu</p>
           </div>
-          <div>
+          <div className='section-3c'>
             <img src='./images/h1-img-4.jpg' />
             <h3>Results you deserve </h3>
             <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu  </p>
@@ -81,6 +81,50 @@ const Home = () => {
           </div>
           <div></div>
           <div></div>
+        </div>
+      </div>
+      <div>
+
+      </div>
+      <div>
+
+      </div>
+      <div>
+        <h3>Anwalt pricing tables</h3>
+        <p>Choose a law service you need and we'll help you at great price</p>
+        <div>
+          <div>
+            <div>
+              <h3>Immigration law</h3>
+            </div>
+            <div>
+              <h3>$790</h3>
+              <p>Lorem ipsum dolor sit amett Dolor sit amet lorem Lorem ipsum dolor sit amett Dolor sit amet lorem</p>
+              <button>Read more </button>
+            </div>
+          </div>
+        
+          <div>
+            <div>
+              <h3>Criminal law</h3>
+            </div>
+            <div>
+              <h3>$1190</h3>
+              <p>Lorem ipsum dolor sit amett Dolor sit amet lorem Lorem ipsum dolor sit amett Dolor sit amet lorem</p>
+              <button>Read more </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>Family law</h3>
+            </div>
+            <div>
+              <h3>$690</h3>
+              <p>Lorem ipsum dolor sit amett Dolor sit amet lorem Lorem ipsum dolor sit amett Dolor sit amet lorem</p>
+              <button>Read more </button>
+            </div>
+          </div>
+        
         </div>
       </div>
       <div>
