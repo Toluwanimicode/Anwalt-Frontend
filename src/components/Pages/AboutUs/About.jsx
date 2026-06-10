@@ -9,6 +9,9 @@ const About = () => {
       <div>
           <NavigationBar />
       </div>
+      <div>
+        <h2>About Us</h2>
+      </div>
       <div className='div-1'>
         <div className='div-2'>
           <h2>What we stand for</h2>
