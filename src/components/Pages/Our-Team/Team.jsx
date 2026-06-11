@@ -25,17 +25,17 @@ const Team = () => {
           </div>
           <div>
             <img src='./images/team-human2.jpg' />
-            <h3> Rebecca Stevens</h3>
+            <h3> Matthew Bates</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
           </div>
           <div>
             <img  src='./images/team-human3.jpg'/>
-            <h3> Rebecca Stevens</h3>
+            <h3>Gloria Edwards</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
           </div>
           <div>
             <img src='./images/team-human4.jpg' />
-            <h3> Rebecca Stevens</h3>
+            <h3>Adam Phillips</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus unde doloremque voluptas. Pariatur natus iste atque. Assumenda dolores, quibusdam corporis ipsa ut maxime dolore labore magni fugit, nemo illo?</p>
           </div>
         </div>

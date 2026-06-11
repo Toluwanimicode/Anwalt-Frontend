@@ -10,7 +10,7 @@ const About = () => {
           <NavigationBar />
       </div>
       <div>
-        <h2>About Us</h2>
+        <h2 className='text-1'>About Us</h2>
       </div>
       <div className='div-1'>
         <div className='div-2'>
