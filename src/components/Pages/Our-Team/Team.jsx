@@ -9,8 +9,8 @@ const Team = () => {
       <div>
         <NavigationBar />
       </div>
-      <div className='text-1'>
-        <h3>Our Team</h3>
+      <div >
+        <h3 className='text-1'>Our Team</h3>
       </div>
       <div className='teamSection-1'> 
         <div>
