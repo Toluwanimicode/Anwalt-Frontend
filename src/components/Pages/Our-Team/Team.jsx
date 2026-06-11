@@ -41,8 +41,11 @@ const Team = () => {
         </div>
       </div>
       <div>
-        <h3>Rewards we are proud of </h3>
+        <div className='reward-section'>
+            <h3>Rewards we are proud of </h3>
         <p> impressive number of successful law cases in our portfolio is a confirmation of our quality </p>
+        </div>
+        
         <div>
           <img src='./images/team-1.png' />
           <img  src='./images/Team-2.png'/>
