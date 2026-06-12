@@ -130,6 +130,9 @@ const Home = () => {
         </div>
       </div>
       <div>
+        <h3>Find out about activities on our blog</h3>
+      </div>
+      <div>
         <Footer />
       </div>
     </div>
