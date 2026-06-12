@@ -39,3 +39,11 @@
     display: flex;
     padding: 50px;
 }
+.Blog-Section{
+    display: flex;
+    margin: 20px;
+}
+.blog-text{
+    text-align: center;
+    padding: 20px;
+}

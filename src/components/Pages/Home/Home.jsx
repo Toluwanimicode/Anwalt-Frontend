@@ -130,34 +130,35 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <h3>Find out about activities on our blog</h3>
-        <div>
+        <h3 className='blog-text'>Find out about activities on our blog</h3>
+        <div className='Blog-Section'>
           <div>
             <img />
             <h5>March 9, 2026</h5>
             <h3>Law and order </h3>
             <p>lorem ipsum dolor sit amet consectetur adicing elit ut uliam </p>
+            <button>Read More</button>
           </div>
           <div>
             <img />
             <h5>March 9, 2026</h5>
             <h3>Time for action</h3>
             <p>lorem ipsum dolor sit amet consectetur adicing elit ut uliam</p>
+            <button>Read More</button>
           </div>
           <div>
             <img />
             <h5>March 9, 2026</h5>
             <h3>Dream big</h3>
             <p>lorem ipsum dolor sit amet consectetur adicing elit ut uliam</p>
-
+            <button>Read More</button>
           </div>
           <div>
             <img />
             <h5>March 9, 2026</h5>
-            <h3>
-              Lawyer Lifestyle
-            </h3>
+            <h3>Lawyer Lifestyle </h3>
             <p>lorem ipsum dolor sit amet consectetur adicing elit ut uliam</p>
+            <button>Read More</button>
           </div>
         </div>
       </div>
