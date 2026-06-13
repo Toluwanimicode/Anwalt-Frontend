@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
             <div className='footer-end'>
                 <div>
-                        <p>2021 Qode Interactive. All rights reserved</p>
+                        <p>2026 DAT. All rights reserved</p>
                 </div>
                 <div>
                     <div></div>
