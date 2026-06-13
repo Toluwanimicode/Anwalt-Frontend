@@ -42,8 +42,22 @@
 .Blog-Section{
     display: flex;
     margin: 20px;
+    
+
 }
 .blog-text{
     text-align: center;
+    padding: 20px;
+}
+.Blog-1{
+    padding: 20px;
+}
+.Blog-2{
+    padding: 20px;
+}
+.Blog-3{
+    padding: 20px;
+}
+.Blog-4{
     padding: 20px;
 }
