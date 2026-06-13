@@ -96,7 +96,7 @@ const Home = () => {
           </div>
         <div className='section-4b'>
           <div>
-            <div>
+            <div className='Immigration-text'>
               <h3>Immigration law</h3>
             </div>
             <div>
@@ -107,7 +107,7 @@ const Home = () => {
           </div>
         
           <div>
-            <div>
+            <div className='criminal-text'>
               <h3>Criminal law</h3>
             </div>
             <div>
@@ -117,7 +117,7 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <div>
+            <div className='family-text'>
               <h3>Family law</h3>
             </div>
             <div>
