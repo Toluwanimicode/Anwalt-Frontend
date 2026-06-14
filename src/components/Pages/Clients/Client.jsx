@@ -29,10 +29,22 @@ const Client = () => {
             </div>
         </div>
         <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+                <h3>117</h3>
+                <p>Donec sapien ut libero venenatis faucibus . Nullam qante sit </p>
+            </div>
+            <div>
+                <h3>62</h3>
+                <p>Donec sapien ut libero venenatis faucibus . Nullam qante sit  </p>
+            </div>
+            <div>
+                <h3>18</h3>
+                <p>Donec sapien ut libero venenatis faucibus . Nullam qante sit </p>
+            </div>
+            <div>
+                <h3>93 </h3>
+                <p> Donec sapien ut libero venenatis faucibus . Nullam qante sit </p>
+            </div>
         </div>
         <div>
             <h3 className='client-section1'>List of our satisfied CLients</h3>
