@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../../Footer/Footer'
 import NavigationBar from '../../Navbar/Navbar'
+import "./Client.css"
 
 const Client = () => {
     return (
@@ -9,7 +10,7 @@ const Client = () => {
             <NavigationBar />
         </div>
         <div>
-            <h2>Our Clients</h2>
+            <h2 className='client-text' >Our Clients</h2>
         </div>
         <div>
             <div>
