@@ -35,17 +35,25 @@ const Client = () => {
             <div></div>
         </div>
         <div>
-            <h3>List of our satisfied CLients</h3>
-            <p>impressive number of successful law cases in our portfolio is a confirmation of our quality . Check out the list of our clients and become one of them</p>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <h3 className='client-section1'>List of our satisfied CLients</h3>
+            <p className='client-section1a'>impressive number of successful law cases in our portfolio is a confirmation of our quality . Check out the list of our clients and become one of them</p>
+            <div className='image-section' >
+                <div>
+                    <img src='./images/client-1.png' />
+                </div>
+                <div>
+                    <img src='./images/client-2.png' />
+                </div>
+                <div>
+                    <img src='./images/client-3.png' />
+                </div>
+                <div>
+                    <img src='./images/client-4.png' />
+                </div>
             </div>
         </div>
         <div>
-
+            
         </div>
         <div>
             <Footer />
