@@ -28,7 +28,7 @@ const Client = () => {
 
             </div>
         </div>
-        <div>
+        <div className='number-section'>
             <div>
                 <h3>117</h3>
                 <p>Donec sapien ut libero venenatis faucibus . Nullam qante sit </p>
