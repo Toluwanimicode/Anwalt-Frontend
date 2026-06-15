@@ -3,6 +3,7 @@ import "./Home.css"
 import Caorousel1 from '../../Carousel/Carousel'
 import NavigationBar from '../../Navbar/Navbar'
 import Footer from '../../Footer/Footer'
+import Testimonials from '../../Testimonials/Testimonials'
 
 const Home = () => {
   return (
@@ -84,6 +85,8 @@ const Home = () => {
         </div>
       </div>
       <div>
+        {/*this is where i want to use the swiper*/}
+        <Testimonials />
 
       </div>
       <div>
