@@ -9,7 +9,7 @@ const About = () => {
       <div>
           <NavigationBar />
       </div>
-      <div>
+      <div className='header-section' >
         <h2 className='text-1'>About Us</h2>
       </div>
       <div className='div-1'>
