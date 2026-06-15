@@ -19,7 +19,7 @@ const Client = () => {
 
                     </div>
                     <div>
-                        <p>With a great team of law expertise we strive for excellence in court. Beside impressive background, our lawyers have a long experience in all sorts of legal cases </p>
+                        <p className='header-text'>With a great team of law expertise we strive for excellence in court. Beside impressive background, our lawyers have a long experience in all sorts of legal cases </p>
                     </div>
                 </div>
                 
