@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div>
       <div className='section-2'>
-        <h3>Emergency?Call us now  +35 123 456 789 </h3>
+        <h3>Emergency?  Call us now  +35 123 456 789 </h3>
       </div>
       <div className='body-2'>
         <div className='body-3'>
@@ -71,7 +71,7 @@ const Home = () => {
             <p>Lorem ipsum dolor sit amet, consecteur adi piscing sed do eiusmod tempor icididu  </p>
           </div>
         </div>
-        <div>
+        <div className='number-section'>
           <div>
             <h3>117</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
@@ -80,14 +80,18 @@ const Home = () => {
             <h3>62</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
           </div>
-          <div></div>
-          <div></div>
+          <div>
+            <h3>18</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+          <div>
+            <h3>93</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
         </div>
       </div>
       <div>
-        {/*this is where i want to use the swiper*/}
         <Testimonials />
-
       </div>
       <div>
 
