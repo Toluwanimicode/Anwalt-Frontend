@@ -4,6 +4,7 @@ import Caorousel1 from '../../Carousel/Carousel'
 import NavigationBar from '../../Navbar/Navbar'
 import Footer from '../../Footer/Footer'
 import Testimonials from '../../Testimonials/Testimonials'
+import HeroSlider from '../../Carousel/Carousel'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       </div>
       <div>
         <Caorousel1 />
+        
       </div>
       <div className='section-1'>
         <div>
