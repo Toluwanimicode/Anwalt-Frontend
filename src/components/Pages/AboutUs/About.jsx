@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../../Footer/Footer'
 import NavigationBar from '../../Navbar/Navbar'
+import Testimonials from '../../Testimonials/Testimonials'
 import "./About.css"
 
 const About = () => {
@@ -25,7 +26,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        
+        <Testimonials />
       </div>
       <div>
         <Footer />
