@@ -9,7 +9,7 @@ const Team = () => {
       <div>
         <NavigationBar />
       </div>
-      <div >
+      <div className="text1-section" >
         <h3 className='text-1'>Our Team</h3>
       </div>
       <div className='teamSection-1'> 
