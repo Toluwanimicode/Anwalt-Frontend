@@ -9,7 +9,7 @@ const Client = () => {
         <div>
             <NavigationBar />
         </div>
-        <div>
+        <div className='client-section'>
             <h2 className='client-text' >Our Clients</h2>
         </div>
         <div>

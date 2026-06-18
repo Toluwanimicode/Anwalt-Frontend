@@ -17,4 +17,9 @@
 }
 .header-text{
     text-align: center;
+    padding-top: 20px;
+}
+.client-section{
+    padding: 250px;
+    background-image: url("/public/images/p-background-1.jpg");
 }
