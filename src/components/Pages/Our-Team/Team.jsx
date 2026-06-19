@@ -14,7 +14,7 @@ const Team = () => {
       </div>
       <div className='teamSection-1'> 
         <div>
-          <h2> Experts in criminal law</h2>
+          <h2 className="teams-section-1a"> Experts in criminal law</h2>
           <p> Professionals with exceptional legal background  and years of law espertise </p>
         </div>
         <div className='team-section'>
