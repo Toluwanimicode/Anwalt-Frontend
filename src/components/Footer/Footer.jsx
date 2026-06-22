@@ -1,71 +1,110 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Footer.css"
 
 const Footer = () => {
-    return (
-    <div >
-        <div className='footer-section' >
-            <div className='FooterSection-1'>
-                <div>
-                    <h1>Law Office</h1>
-                    <p>Lorem Ipsn gravida aliquet. Aenean solici, lorem quis biben auci elit ipsu sem nibh id elit Phasellus vive varius laet.Quisque rutrum.Aenean imperdiet. Etiam ultrices. Aenean solici, lorem quis biben auci.</p>
-                </div>
-                <div>
-                    <div> {/*This particular div is for the icons*/}
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
-            <div className='FooterSection-2'>
-                <h3>Latest news</h3>
-                <p>Stop worrying about the market  March 9, 2018</p>
 
-                <p>Law school programs
-                    March 9,2018
-                </p>
+const [formData, setFormData] = useState({
+    email: "",
+    message: ""
+})
 
-                <p>How to deal with law school stress
-                    March 9, 2018 
-                </p>
-            </div>
-            <div className='FooterSection-3'>
-                <h3>Usual questions</h3>
-                <p>How can i protect myself ?
-                    <br></br>
-                    Can i divorce without a lawyer 
-                    <br></br>
-                    Do i need a personal lawyer
-                    <br></br>
-                    if hourly, what is the hourly fee ?
-                    <br></br>
-                    is there a cap on fees ?
-                    <br></br>
-                    Are you licensed in my country ?
+const handleChange = (e) => {
+    setFormData({
+        ...formData,
+        [e.target.name]: e.target.value
+    })
+}
 
-                </p>
-            </div>
-            <div className='FooterSection-4'>
-                <h3>Emergency Contact</h3>
-                <form class="contact-form"  method="POST">
-                    <input type="email" name="email" placeholder="Your Email" required />
-                    <textarea name="message" placeholder="Message" rows="6" required></textarea>
-                    <button type="submit">Send</button>
-                </form>
-            </div>
-            </div>
-            <div className='footer-end'>
-                <div>
-                        <p>2026 DAT. All rights reserved</p>
-                </div>
-                <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
+const handleSubmit = async (e) => {
+    e.preventDefault()
+
+    try {
+
+        const response = await fetch(
+            "http://localhost:5000/submit-form",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(formData)
+            }
+        )
+
+        const data = await response.json()
+
+        alert(data.message)
+
+        // Clear form after successful submit
+        setFormData({
+            email:"",
+            message:""
+        })
+
+    } catch(error){
+        console.log(error)
+    }
+}
+
+return (
+<div>
+
+<div className='footer-section'>
+
+<div className='FooterSection-1'>
+    <div>
+        <h1>Law Office</h1>
+        <p>
+            Lorem Ipsn gravida aliquet...
+        </p>
     </div>
+</div>
+
+<div className='FooterSection-2'>
+    <h3>Latest news</h3>
+</div>
+
+<div className='FooterSection-3'>
+    <h3>Usual questions</h3>
+</div>
+
+<div className='FooterSection-4'>
+    <h3>Emergency Contact</h3>
+
+    <form
+        className="contact-form"
+        onSubmit={handleSubmit}
+    >
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+        />
+
+        <textarea
+            name="message"
+            placeholder="Message"
+            rows="6"
+            value={formData.message}
+            onChange={handleChange}
+            required
+        />
+
+        <button type="submit">
+            Send
+        </button>
+
+    </form>
+
+</div>
+
+</div>
+
+</div>
 )
 }
 
