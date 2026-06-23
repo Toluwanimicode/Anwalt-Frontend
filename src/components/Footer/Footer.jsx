@@ -55,7 +55,7 @@ return (
     <div>
         <h1>Law Office</h1>
         <p>
-            Lorem Ipsn gravida aliquet...
+            Lorem Ipsn gravida aliquet. Aenean solici, lorem quis biben auci elit ipsu sem nibh id elit Phasellus vive varius laet.Quisque rutrum.Aenean imperdiet. Etiam ultrices. Aenean solici, lorem quis biben auci
         </p>
     </div>
 </div>
@@ -66,6 +66,7 @@ return (
 
 <div className='FooterSection-3'>
     <h3>Usual questions</h3>
+    <p></p>
 </div>
 
 <div className='FooterSection-4'>
