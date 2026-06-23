@@ -21,7 +21,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     console.log(formData);
 
     // Backend/API logic goes here
@@ -39,6 +38,18 @@ const Contact = () => {
     <div>
       <NavigationBar />
 
+      {/* Styled Map Container */}
+      <div className="contact-map-holder">
+        <iframe
+          title="Contact Location Map"
+          src="https://maps.google.com/maps?q=Webster%20Ave%2020&t=&z=14&ie=UTF8&iwloc=&output=embed"
+          className="contact-map-iframe"
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
+
       <div className="contact-container">
         <h2 className="form-text-a">Need some help?</h2>
 
@@ -48,7 +59,6 @@ const Contact = () => {
         </p>
 
         <form onSubmit={handleSubmit} className="contact-form">
-
           <div className="grid-row">
             <div className="grid-col">
               <input
@@ -108,12 +118,10 @@ const Contact = () => {
           <div className="button-container">
             <button type="submit">Contact Us</button>
           </div>
-
         </form>
       </div>
 
       <div className="office-container">
-
         <div className="office-card">
           <h3>London Office</h3>
           <span>9 Clapham Road, London SW9</span>
@@ -145,7 +153,6 @@ const Contact = () => {
           <span>Fax: +88 (0) 101 0000 001</span>
           <span>Email: info@example.com</span>
         </div>
-
       </div>
 
       <Footer />
