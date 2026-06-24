@@ -66,7 +66,14 @@ return (
 
 <div className='FooterSection-3'>
     <h3>Usual questions</h3>
-    <p></p>
+    <ul>
+        <li>How can I protct myself ?</li>
+        <li>Can I divorce without a lawyer ?</li>
+        <li>Do I need a personal lawyer ?</li>
+        <li>If hourly, what is the hourly fees ?</li>
+        <li>is there a cap on fees ?</li>
+        <li>Are you licensed in my country ?</li>
+    </ul>
 </div>
 
 <div className='FooterSection-4'>
