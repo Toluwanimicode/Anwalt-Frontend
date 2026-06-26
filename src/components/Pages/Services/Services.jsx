@@ -1,8 +1,13 @@
 import React from 'react'
+import NavigationBar from '../../Navbar/Navbar'
+import Footer from '../../Footer/Footer'
 
 const Services = () => {
   return (
-    <div>
+    <div id='services'>
+        <div>
+            <NavigationBar />
+        </div>
         
         <div>
             <h3>Law Services</h3>
@@ -30,7 +35,9 @@ const Services = () => {
             <h4>20% discount</h4>
             <button>More</button>
         </div>
-        
+        <div>
+            <Footer />
+        </div>
     </div>
 )
 }

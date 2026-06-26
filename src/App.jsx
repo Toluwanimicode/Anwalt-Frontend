@@ -6,6 +6,7 @@ import Contact from './components/Pages/Contact/Contact';
 import Home from './components/Pages/Home/Home'
 import Team from './components/Pages/Our-Team/Team';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Services from './components/Pages/Services/Services';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
               <Route path="/client" element={<Client/>} />
               <Route path="/team" element={<Team />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/services" element={<Services />} />
           </Routes>
         </BrowserRouter>
     </>
