@@ -1,6 +1,7 @@
 import React from 'react'
 import NavigationBar from '../../Navbar/Navbar'
 import Footer from '../../Footer/Footer'
+import "./Services.css"
 
 const Services = () => {
   return (
@@ -9,10 +10,10 @@ const Services = () => {
             <NavigationBar />
         </div>
         
-        <div>
-            <h3>Law Services</h3>
+        <div >
+            <h3 className='services-a'>Law Services</h3>
         </div>
-        <div>
+        <div className='services-content'>
             <div>
                 <a></a>
                 <h4>
