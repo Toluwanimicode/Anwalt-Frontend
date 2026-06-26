@@ -10,7 +10,7 @@ const Services = () => {
             <NavigationBar />
         </div>
         
-        <div >
+        <div className='services-a-section' >
             <h3 className='services-a'>Law Services</h3>
         </div>
         <div className='services-content'>
