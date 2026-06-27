@@ -31,7 +31,7 @@ const Services = () => {
                 </p>
             </div>
         </div>
-        <div>
+        <div className="offer-section" >
             <p>Special offer this month</p>
             <h4>20% discount</h4>
             <button>More</button>
